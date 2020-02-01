@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <strings.h>
+#include <string.h>
+#include <ctype.h>
 
 #define MAX_TOKEN_LENGTH 100
 #define MAX_TOKENS 100
@@ -10,12 +11,15 @@
 #define OPEN_PAREN 4
 #define CLOSE_PAREN 5
 #define NO_PRIORITY -13
- 
+
 typedef struct {
   char token[MAX_TOKEN_LENGTH];
   int type;
   int priority;
 } TOKEN_TYPE;
+
+int get_tokens(char *infix, TOKEN_TYPE *tokens);
+int pop_until(int priority);
 
 /*
 void main() {

@@ -83,7 +83,7 @@ int widgets(FILE **output) {
   fprintf(*output, "label .about.frame.title  -text \"Grapher3D, Version %s\"\n", VERSION);
   fprintf(*output, "label .about.frame.name   -text \"Michael P. Mesnier\"\n");
   fprintf(*output, "label .about.frame.email   -text \"michael.p.mesnier@comcast.net\"\n");
-  fprintf(*output, "label .about.frame.copy   -text \"Copyright (c) 1994-2000\"\n");
+  fprintf(*output, "label .about.frame.copy   -text \"Copyright (c) 1994-2020\"\n");
   fprintf(*output, "pack .about.frame.title .about.frame.name .about.frame.copy -fill both -expand 1\n");
   fprintf(*output, "pack .about.ok -side bottom -padx 2m -pady 1m -fill x\n");
   fprintf(*output, "pack .about.frame -padx 2m -pady 1m -fill both -expand 1\n");
@@ -459,7 +459,7 @@ int widgets(FILE **output) {
   fprintf(*output, "\n");
   fprintf(*output, "                   Michael P. Mesnier\n");
   fprintf(*output, "   \n");
-  fprintf(*output, "       Copyright (c) 1994-2000.  All rights reserved. \n");
+  fprintf(*output, "       Copyright (c) 1994-2020.  All rights reserved. \n");
   fprintf(*output, "   \n");
   fprintf(*output, "                    ***Disclaimer***\n");
   fprintf(*output, "   \n");

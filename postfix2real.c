@@ -5,7 +5,7 @@
 #include <math.h>
 #include <curses.h>
 #include <ctype.h>
-#include <strings.h>
+#include <string.h>
 #define MAX_NUM_SCALARS 100
 
 /*

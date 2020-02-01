@@ -8,6 +8,7 @@
 
 #include <stddef.h>
 #include <stdio.h>
+#include <unistd.h>
 
 int get_points(char *file, double points[][3], int *num_points, char *error) {
   FILE *handle;
@@ -30,6 +31,6 @@ int get_points(char *file, double points[][3], int *num_points, char *error) {
     count++;
   }
   *num_points = count;
-  close(handle);
+  fclose(handle);
   return 0;
 } 
