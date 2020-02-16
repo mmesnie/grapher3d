@@ -9,6 +9,4 @@ grapher3d: $(FILES)
 	$(CC) $(CFLAGS) -o grapher3d $(FILES) -lm
 
 clean:
-	rm -rf *.o
-allclean:
 	rm -rf *.o grapher3d
