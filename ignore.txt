@@ -1,0 +1,2 @@
+#svn propset svn:ignore -F ignore.txt .
+grapher3d
