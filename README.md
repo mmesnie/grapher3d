@@ -1,8 +1,8 @@
 # grapher3d
 
    ***************************************
-   * Run "make" to build "grapher3d."    *
-   * Tcl/Tk "wish" must be in your path. *
+   * Run "make" to build "grapher3d."
+   * Tcl/Tk "wish" must be in your path.
    ***************************************
 
                       Grapher - 3D
