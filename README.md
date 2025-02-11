@@ -26,3 +26,5 @@
    rotation and domain shifting help better illustrate the surface. 
 
    "grapher3d" will start the application. 
+
+![Alt text](screenshot.png?raw=true)
