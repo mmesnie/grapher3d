@@ -1,0 +1,205 @@
+\magnification = \magstep 2
+\font\bigrm = cmr10 scaled \magstep 3
+\font\medium = cmr10 scaled \magstep 2
+\font\small  = cmr10 scaled \magstep 0
+\nopagenumbers
+\vglue 1 in
+
+\centerline{\bf \bigrm Grapher-3D}
+\vskip 25 pt
+\centerline{\bf \medium User's Manual}
+
+\vskip 250 pt
+
+\hrule
+\vskip 10 pt
+\small Michael Paul Mesnier
+
+\small Northeast Missouri State University
+
+\small Kirksville, Mo. 63501
+
+\vfill
+\eject
+\vglue .5 in
+\centerline{\bf \bigrm Table of Contents}                               
+\vskip 30 pt
+
+             \hskip 85 pt I.~~~Project's Purpose.
+                          
+\vskip 20 pt \hskip 85 pt II.~~Functionality.
+
+\vskip 20 pt \hskip 85 pt III.~Use.
+
+\vskip 20 pt \hskip 85 pt IV.~Program Bugs. (Boo...Hiss)
+
+\vfill
+\eject
+\vglue .5 in
+\centerline{\bf \bigrm Project's Purpose}
+\vskip 24 pt
+
+Grapher-3D provides users with a visual aid to three dimensional 
+functions.  Unlike two dimensional functions, the complexity of a three 
+dimensional function prevents an easy sketching by hand.  
+Further, Grapher-3D allows users to quickly change their 
+position and ``view'' the function from any point in three-space.
+
+\vfill
+\eject
+\vglue .5 in
+\centerline{\bf \bigrm Project's Functionality}                           
+\vskip 24 pt
+
+Grapher-3D has made enormous strides since the inception of 
+my ``Grapher'' projects.  The original Grapher-2D, coded entirely 
+in Apple Pascal, only accomodated a single, hard-coded function,  
+and viewing new functions necessarily required recompilation.  
+Grapher-3D, however, allows numerous three-dimensional functions 
+to be plotted without ever leaving the application.
+      
+\vfill
+\eject
+\vglue .25 in
+\centerline{\bf \bigrm Use of Grapher-3D}
+\vskip 24 pt
+\centerline{\bf I. Plotting a surface.}
+\vskip 12 pt
+
+By default, Grapher-3D begins in graphics mode with an 
+interesting surface preloaded for your enjoyment.  You can 
+either experiment with this surface or escape to the main 
+menu and create your own.  Find listed below a description 
+of the hot keys available while viewing a surface.  Note that
+these keys are also described in `Instructions' from the main
+menu.
+
+\vskip 12 pt
+\settabs 16 \columns
+
+\+x &: Rotates surface about the $x$ axis.\cr
+
+\+y &: Rotates surface about the $y$ axis.\cr
+
+\+z &: Rotates surface about the $z$ axis.\cr
+
+\vskip 6 pt
+
+\noindent
+Note: The resolution of a surface is the number of points 
+that constitute each line of the graph.  Smooth ``animation'' 
+can be achieved with lower resolutions, where finer looking 
+surfaces require higher resolutions.
+
+\vskip 6 pt
+
+\+c &: Changes the surfaces color. \cr
+
+\noindent
+(An option I included for all 
+the users who find it necessary to ask ``Can it change colors?'')
+
+\vskip 6 pt
+
+\+1 &: Stretches $z$ axis.\cr
+
+\+2 &: Shrinks $z$ axis.\cr
+
+\+3 &: Turns range checking on.\cr
+
+\+4 &: Turns range checking off. (default)\cr
+
+\+5 &: Decreases the resolution of the surface.\cr
+
+\+6 &: Increases the resolution of the surface.\cr
+
+\vskip 6 pt
+
+\noindent
+Note: Range checking prevents surfaces from ``wrapping'' around 
+the screen.
+
+\vskip 6 pt
+
+\+ $+$ &: Enlarges surface. \cr
+
+\+ $-$ &: Reduces surface. \cr
+
+\+ m &: Exit to main menu.\cr
+
+\+ q &: Quit Grapher-3D. \cr
+
+\vfill
+\eject
+\centerline{\bf II. Creating a New Funtion}
+\vskip 12 pt
+
+Creating functions in Grapher-3D requires a familiarity 
+with postfix notation (later releases will accept infix 
+expressions).  With little practice, postfix expressions 
+will become second nature.  Included below are the defined 
+functions in Grapher-3D along with a few examples.
+
+\vskip 12 pt
+     
+\+ x   &: denotes the variable $x$ in the function $f(x,y)$.\cr
+      
+\+ y   &: denotes the variable $y$ in the function $f(x,y)$.\cr
+       
+\+ +   &: addition         &&&&& (e.g. $x+y$ = xy+).\cr
+
+\+ $-$ &: subtraction      &&&&& (e.g. $x-y$ = xy-).\cr
+ 
+\+ *   &: multiplication   &&&&& (e.g. $x*(x+y)$ = xy+x*).\cr
+ 
+\+ /   &: division         &&&&& (e.g. $x/(x*y)$ = xy*x/).\cr
+
+\+ \^{}&: exponents        &&&&& (e.g. $x^2$ = x2\^{}).\cr
+
+\+ s   &: sine             &&&&& (e.g. $\sin(x*y)$ = xy*s).\cr
+
+\+ c   &: cosine           &&&&& (e.g. $\cos(x*y-1)$ = xy*1-c).\cr
+
+\+ e   &: exponent base e  &&&&& (e.g. $\exp(x/y)$ = xy/e).\cr
+
+\+ l   &: natural log      &&&&& (e.g. $\ln(x-y)/(x+1)$ = xy-lx1+/).\cr
+
+\+ n   &: negation         &&&&& (e.g. $-(x+y)$ = xy+n).\cr
+
+\+ a   &: absolute value   &&&&& (e.g. $abs(x)$ = xa).\cr
+
+\vskip 6 pt
+
+\noindent
+Note about constants: Only integer constants are allowed.  
+
+\vskip 12 pt
+\centerline{\bf III.  Domain}
+\vskip 6 pt
+
+After selecting `Domain' from the main menu, you will be 
+prompted to enter the minimum and maximum x values along with 
+the minimum and maximum y values.  Both real and integer values 
+are allowed.
+
+\vskip 12 pt
+\centerline{\bf IV.  Instructions}
+\vskip 6 pt
+
+Choosing `Instructions' from the main menu will provide the user 
+with a screenful of helpful information describing the available 
+hot keys while in graphics mode.
+
+\vfill
+\eject
+\vglue .5 in
+\centerline {\bf \bigrm Program Bugs}
+\vskip 12 pt
+
+Be careful when using exponential functions, they tend to grow 
+extremely fast and produce overflow and/or underflow errors. 
+Later releases will have run-time checks on function arguments. 
+Also, when using higher resolutions, the super-vga library has 
+been known to crash with a segmentation violation (ouch!).
+
+\bye
