@@ -3,7 +3,7 @@ libsvga (http://svgalib.org/). Circa 1994.
 
 Compiles and runs OK on Fedora 8. Linux version 2.6.23.1-42.fc8.
 
-My need to uncomment this in /etc/libvga.config
+May need to uncomment this in /etc/libvga.config
 
 NoHelper            # Disable use of the helper-kernelmodule (/dev/svga) and
                     # fallback to old ioperm/iopl and /dev/mem use.
