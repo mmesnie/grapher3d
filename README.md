@@ -27,4 +27,4 @@
 
    "grapher3d" will start the application. 
 
-![Alt text](screenshot.png?raw=true)
+![Alt text](screenshot.png)
